@@ -22,4 +22,4 @@ steps:
   displayName: Execute Unit Tests
   inputs:
     filePath: 'C:\Users\sisachde\Desktop\VSTS\testps1.ps1'
-    arguments: '$(workspaceRoot) $(tttEnvironment) $(cesUri) $(hostUser) $(hostPassword) $(hostCodePage) $(testFolder) $(cliPath)'
+    arguments: '$(tttEnvironment) $(cesUri) $(hostUser) $(hostPassword) $(hostCodePage) $(testFolder) $(cliPath)'
