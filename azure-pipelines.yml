@@ -22,4 +22,4 @@ steps:
   displayName: Execute Unit Tests
   inputs:
     filePath: '$(agentScriptsPath)\testps1.ps1'
-    arguments: '$(workspaceRoot) $(tttEnvironment) $(cesUri) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwApplication) $(ispwLevel) $(testFolder) $(ccRepo) $(ccSystem) $(ccTestid) $(cliPath)'
+    arguments: '$(workspaceRoot) $(tttEnvironment) $(cesUri) $(hostUser) $(hostPassword) $(hostCodePage) $(testFolder) $(cliPath)'
