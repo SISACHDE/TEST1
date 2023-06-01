@@ -24,4 +24,4 @@ steps:
   displayName: Execute Unit Tests
   inputs:
     filePath: '$(agentScriptsPath)\testps1.ps1'
-    arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(cliPath)'
+    arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwContainerName) $(ispwContainerType) $(ispwLevel) $(cliPath)'
