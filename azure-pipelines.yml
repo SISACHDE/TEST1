@@ -3,8 +3,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
-- master
+trigger: none
 
 pool:
   name: Default
@@ -25,3 +24,4 @@ steps:
   displayName: Execute Unit Tests
   inputs:
     filePath: 'C:\Users\sisachde\Desktop\VSTS\testps1.ps1'
+    arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(cliPath)'
