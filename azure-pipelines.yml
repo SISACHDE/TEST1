@@ -25,3 +25,8 @@ steps:
   inputs:
     filePath: '$(agentScriptsPath)\testps1.ps1'
     arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwContainerName) $(ispwContainerType) $(ispwLevel) $(cliPath)'
+- task: PowerShell@2
+  displayName: TT Funcational Test
+  inputs:
+    filePath: '$(agentScriptsPath)\TTFunctionalTest.ps1'
+    arguments: '$(workspaceRoot) $(tttEnvironment) $(cesUri) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwApplication) $(ispwLevel) $(testFolder) $(cliPath)'
