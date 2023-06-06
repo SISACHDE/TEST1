@@ -28,5 +28,5 @@ steps:
 - task: PowerShell@2
   displayName: TT Funcational Test
   inputs:
-    filePath: '$(agentScriptsPath)\TTFunctionalTest.ps1'
+    filePath: '$(agentScriptsPath)\TotalTest.ps1'
     arguments: '$(workspaceRoot) $(tttEnvironment) $(cesUri) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwApplication) $(ispwLevel) $(testFolder) $(cliPath)'
