@@ -24,4 +24,4 @@ steps:
   displayName: TT Funcational Test
   inputs:
     filePath: '$(agentScriptsPath)\TotalTest.ps1'
-    arguments: '$(tttEnvironment) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwApplication) $(ispwLevel) $(ispwContainerName) $(ispwContainerType) $(testFolder) $(cliPath) $(workspaceRoot) $(cesUri)'
+    arguments: '$(tttEnvironment) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwApplication) $(ispwLevel) $(ispwContainerName) $(ispwContainerType) $(testFolder) $(workspaceRoot) $(cesUri) $(cliPath)'
